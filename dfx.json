@@ -1,0 +1,35 @@
+{
+  "canisters": {
+    "dfx_svelte_poc_backend": {
+      "main": "src/dfx_svelte_poc_backend/main.mo",
+      "type": "motoko"
+    },
+    "dfx_svelte_poc_frontend": {
+      "dependencies": [
+        "dfx_svelte_poc_backend"
+      ],
+      "frontend": {
+        "entrypoint": "src/dfx_svelte_poc_frontend/src/index.html"
+      },
+      "source": [
+        "src/dfx_svelte_poc_frontend/assets",
+        "dist/dfx_svelte_poc_frontend/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "dfx": "0.11.0",
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    }
+  },
+  "version": 1
+}
