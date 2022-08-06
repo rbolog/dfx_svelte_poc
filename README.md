@@ -20,7 +20,10 @@ see __diff_with_webpack_dfx_011.pdf__
 
 ## update source
 
-__./src/<my_project>_frontend/src/App.svelte__
-__./src/<my_project>_frontend/src/index.html__
-__./src/<my_project>_frontend/src/index.js__
+* __./src/<my_project>_frontend/src/App.svelte__
+* __./src/<my_project>_frontend/src/index.html__
+* __./src/<my_project>_frontend/src/index.js__
 
+## Try it!
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/rbolog/dfx_svelte_poc)
