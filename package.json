@@ -16,9 +16,9 @@
     "copy:types": "rsync -avr .dfx/$(echo ${DFX_NETWORK:-'**'})/canisters/** --exclude='assets/' --exclude='idl/' --exclude='*.wasm' --exclude='*.most' --delete src/declarations"
   },
   "devDependencies": {
-    "@dfinity/agent": "0.12.2",
-    "@dfinity/candid": "0.12.2",
-    "@dfinity/principal": "0.12.2",
+    "@dfinity/agent": "0.13.2",
+    "@dfinity/candid": "0.13.2",
+    "@dfinity/principal": "0.13.2",
     "assert": "2.0.0",
     "buffer": "6.0.3",
     "css-loader": "^6.7.1",
@@ -27,11 +27,11 @@
     "mini-css-extract-plugin": "^2.6.1",
     "process": "0.11.10",
     "stream-browserify": "3.0.0",
-    "terser-webpack-plugin": "^5.3.3",
+    "terser-webpack-plugin": "^5.3.6",
     "util": "0.12.4",
     "webpack": "^5.73.0",
     "webpack-cli": "^4.10.0",
-    "webpack-dev-server": "^4.8.1"
+    "webpack-dev-server": "^4.10.1"
   },
   "engines": {
     "node": "^12 || ^14 || ^16 || ^18"
@@ -43,7 +43,7 @@
     "last 2 edge version"
   ],
   "dependencies": {
-    "svelte": "^3.49.0",
+    "svelte": "^3.50.0",
     "svelte-loader": "^3.1.3"
   }
 }
