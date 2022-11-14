@@ -1,3 +1,6 @@
+> **Warning**
+> This project is no longer maintained, it is replaced by the work of the DFINITY teams [see forum](https://forum.dfinity.org/search?q=svelte)
+
 # dfx_svelte_poc
 
 Recipe to setup Svelte with Internet Computer starting from  __dfx new__
